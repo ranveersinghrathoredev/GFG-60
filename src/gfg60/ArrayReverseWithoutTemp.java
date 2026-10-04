@@ -1,14 +1,14 @@
-package gfg60;
+// package gfg60;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
-public class ArrayReverseWithoutTemp {
+// public class ArrayReverseWithoutTemp {
 
-    public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4, 5};
-         arrayReverse(arr);
-        System.out.println("Reversed Array: " + Arrays.toString(arr));
-    }
+//     public static void main(String[] args) {
+//         int[] arr = { 1, 2, 3, 4, 5};
+//          arrayReverse(arr);
+//         System.out.println("Reversed Array: " + Arrays.toString(arr));
+//     }
 
     // 1: using temp: preferred in real world software development
 //    private static void arrayReverse(int[] arr) {
