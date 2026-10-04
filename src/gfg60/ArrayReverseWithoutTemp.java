@@ -26,18 +26,18 @@ public class ArrayReverseWithoutTemp {
 //        }
 //    }
 
-    // without using temp
-    private static void arrayReverse(int[] arr) {
-        int start = 0;
-        int end = arr.length - 1;
+    // 2: without using temp
+//     private static void arrayReverse(int[] arr) {
+//         int start = 0;
+//         int end = arr.length - 1;
 
-        while(start < end) {
-            arr[start] = arr[start] + arr[end];
-            arr[end] = arr[start] - arr[end];
-            arr[start] = arr[start] - arr[end];
+//         while(start < end) {
+//             arr[start] = arr[start] + arr[end];
+//             arr[end] = arr[start] - arr[end];
+//             arr[start] = arr[start] - arr[end];
 
-            start++;
-            end--;
-        }
-    }
-}
+//             start++;
+//             end--;
+//         }
+//     }
+// }
