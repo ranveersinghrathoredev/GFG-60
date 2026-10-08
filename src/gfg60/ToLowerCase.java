@@ -1,6 +1,6 @@
 package gfg60;
 
-public class toLowerCase {
+public class ToLowerCase {
     public static void main(String[] args) {
 
         String upper = "HELLO";
