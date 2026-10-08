@@ -1,14 +1,14 @@
-// package gfg60;
+package gfg60;
+//
+import java.util.Arrays;
+//
+public class ArrayReverseWithoutTemp {
 
-// import java.util.Arrays;
-
-// public class ArrayReverseWithoutTemp {
-
-//     public static void main(String[] args) {
-//         int[] arr = { 1, 2, 3, 4, 5};
-//          arrayReverse(arr);
-//         System.out.println("Reversed Array: " + Arrays.toString(arr));
-//     }
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5};
+         arrayReverse(arr);
+        System.out.println("Reversed Array: " + Arrays.toString(arr));
+    }
 
     // 1: using temp: preferred in real world software development
 //    private static void arrayReverse(int[] arr) {
@@ -27,17 +27,17 @@
 //    }
 
     // 2: without using temp
-//     private static void arrayReverse(int[] arr) {
-//         int start = 0;
-//         int end = arr.length - 1;
+     private static void arrayReverse(int[] arr) {
+         int start = 0;
+         int end = arr.length - 1;
 
-//         while(start < end) {
-//             arr[start] = arr[start] + arr[end];
-//             arr[end] = arr[start] - arr[end];
-//             arr[start] = arr[start] - arr[end];
+         while(start < end) {
+             arr[start] = arr[start] + arr[end];
+             arr[end] = arr[start] - arr[end];
+             arr[start] = arr[start] - arr[end];
 
-//             start++;
-//             end--;
-//         }
-//     }
-// }
+             start++;
+             end--;
+         }
+     }
+ }
