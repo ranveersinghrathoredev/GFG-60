@@ -5,7 +5,7 @@ public class JumpGame {
         int[] arr1 = {3, 2, 1, 0, 4};
         int[] arr2 = {2, 4, 5, 1, 6};
 
-        System.out.println("Result: "+ canJump(arr2));
+        System.out.println("Result: "+ canJump(arr1));
 
     }
 
